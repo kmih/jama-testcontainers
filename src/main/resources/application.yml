@@ -1,0 +1,10 @@
+
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+  datasource:
+    url: jdbc:posgresql://localhost:5432/citizen
+    username: admin
+    password: admin
